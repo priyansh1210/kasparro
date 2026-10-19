@@ -1,0 +1,62 @@
+{
+ "answer_id": "A19",
+ "status": "ok",
+ "error_type": null,
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 919,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_2928002",
+      "function": {
+       "arguments": "{\"brand_id\":\"stonewave\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "EmAKXgFpFH0T17/nv5h1dpFPGQqom9wGCnLmX21QJkf9zpYL8mrUFlbhUtqNTbvN8IGOwzJMSj1YUoL5J2uUy7DVfy36L4dwcHF3K3yCm6YPtVUkMtkB8ZPriDwdsnrPaBI="
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 1879,
+    "total_tokens": 1901
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"stonewave\"}"
+   },
+   "tool_result_rows": 44
+  },
+  {
+   "turn": 2,
+   "request_messages": 4,
+   "latency_ms": 2872,
+   "assistant": {
+    "content": "{\"answer_id\": \"A19\", \"claims\": [{\"quote\": \"For an authorized India purchase with the original invoice and a manufacturing defect, StoneWave Max receives a standard manufacturer warranty lasting 24 months from the purchase date.\", \"fact_ids\": [\"stonewave.max.warranty_india\"], \"reason\": \"Catalogue says StoneWave Max warranty in India is 18 months, not 24 months.\", \"label\": \"contradicted\"}, {\"quote\": \"When measuring just the speaker rather than the retail box and accessories, StoneWave Max weighs 440 grams, matching the carrying-weight figure associated with StoneWave Go.\", \"fact_ids\": [\"stonewave.max.weight\", \"stonewave.go.weight\"], \"reason\": \"Catalogue weight for StoneWave Max is 900 grams, whereas StoneWave Go is 440 grams.\", \"label\": \"contradicted\"}, {\"quote\": \"The official India retail box for StoneWave Max includes a wall charging adapter, even though separate accessory lists may make the charging arrangement look less obvious.\", \"fact_ids\": [\"stonewave.max.adapter_included\"], \"reason\": \"Catalogue states adapter_included is false for StoneWave Max in the official India retail box.\", \"label\": \"contradicted\"}, {\"quote\": \"With all port covers closed, the laboratory immersion allowance for StoneWave Max is limited to fresh water at no more than one metre for no more than half an hour.\", \"fact_ids\": [\"stonewave.max.immersion_depth\", \"stonewave.max.immersion_duration\", \"stonewave.max.immersion_allowed\"], \"reason\": \"Catalogue lists immersion depth of 1 metre and duration of 30 minutes (half an hour) in fresh water with all port covers closed.\", \"label\": \"supported\"}, {\"quote\": \"No version of StoneWave Max has ever been offered in blue, including previous-year retail stock and editions supplied only through independent authorized sellers rather than the official online store.\", \"fact_ids\": [], \"reason\": \"Catalogue facts do not establish available colours for StoneWave Max.\", \"label\": \"unknown\"}, {\"quote\": \"After an announced firmware update next quarter, StoneWave Max will gain a built-in voice assistant that can answer spoken questions without requiring a paired phone to process the request.\", \"fact_ids\": [], \"reason\": \"Catalogue facts do not contain future firmware updates or voice assistant capabilities.\", \"label\": \"unknown\"}, {\"quote\": \"An original invoice is unnecessary when claiming the standard India manufacturer warranty for StoneWave Max, provided the buyer says the purchase came from an authorized seller.\", \"fact_ids\": [\"stonewave.max.warranty_invoice_required\"], \"reason\": \"Catalogue states warranty_invoice_required is true for StoneWave Max.\", \"label\": \"contradicted\"}, {\"quote\": \"For manufacturing defects following an authorized India purchase with the original invoice, the standard manufacturer warranty on StoneWave Max lasts 1.5 years from purchase.\", \"fact_ids\": [\"stonewave.max.warranty_india\"], \"reason\": \"Catalogue lists warranty_india as 18 months, which equals 1.5 years.\", \"label\": \"supported\"}, {\"quote\": \"The Bluetooth connection on StoneWave Max maintains uninterrupted playback at a distance of one hundred metres outdoors, even when a listener changes the phone used as the transmitting device.\", \"fact_ids\": [], \"reason\": \"Catalogue has no facts regarding outdoor Bluetooth range or transmission distance.\", \"label\": \"unknown\"}, {\"quote\": \"Orders for StoneWave Max receive free delivery to every India postal code, so there is no separate shipping charge even when a customer selects a remote delivery address.\", \"fact_ids\": [], \"reason\": \"Catalogue facts do not cover delivery terms, postal codes, or shipping charges.\", \"label\": \"unknown\"}]}",
+    "role": "assistant",
+    "extra_content": {
+     "google": {
+      "thought_signature": "EmAKXgFpFH0TZp981pyPrb9HECZlN/yfL3cgfpSY7JE41diCUvbbPBMO278hFaZpMVZPRvf1QOzW45btNCizqEedWSsem4CMojFNdwOpUdZmbbvuIyTIe2EQepfwWreh06g="
+     }
+    }
+   },
+   "usage": {
+    "completion_tokens": 807,
+    "prompt_tokens": 6354,
+    "total_tokens": 7161
+   }
+  }
+ ]
+}

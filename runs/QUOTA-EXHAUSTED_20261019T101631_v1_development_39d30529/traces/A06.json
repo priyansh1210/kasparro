@@ -1,0 +1,43 @@
+{
+ "answer_id": "A06",
+ "status": "error",
+ "error_type": "provider_error",
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 19724,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_3073795",
+      "function": {
+       "arguments": "{\"brand_id\":\"cleartrail\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "EvEDCu4DAWkUfRNkPDcKtUTw5oyXmII8Cm+FrXU2aJL0Xqq6eysrETa0nU197vedc2szSCuqoLeyArTYpKSkvLYJ09LWU+fwu4/x1RSu6SC393MgDJQi73pI6naabp8j5EKBe1rZAp35VwSnLEZrpM3mQFzHjBnUJZ6IGXHOjQyv3qGcSye/8K/w0kn+g0Qw80ibnC5XgThF5mOeJrVK3aeHShalnyJhfNPBLjha8qJgE6SsWvDZMF5BrOc4MSuqaTlCfMVKTp9xsntdYS+Ive8r9O9jODA7ycxaJEPsMX+lT9iFRb7miRdu3nFTyUi1tFl5b6OfoiKYKyoXQV93hrjQRWmz5DOOdYJ0ThRJSlZ2aftbKFoIm4Liy4Nmtm6Br/Q605u1SjKeu2TpIkWSEjH6s01SIy+83P5vOFXJtUfB+JL79K7x9nUTqnUOKPU/zQelwGu+CXJVZZptT5EXf8p3w4907ZDWFjzOBCG0Il2Q6y7u7W6G+ODaf7fnvtTLJt1b+z8bhZB94ppIIuDwsiFAuWInJ4FWuC+UGEeZpuV+2oCF2dHkXNOBReF9LrAXVW+28KDUggDgx34yMtPIwW20Es6p2mLmauqOd9t5hRcGd0MXhvsFZNzFCAMpenk7zw0do0Amwj5mNWnlHoADk/sNUY0="
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 1823,
+    "total_tokens": 1954
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"cleartrail\"}"
+   },
+   "tool_result_rows": 44
+  }
+ ]
+}

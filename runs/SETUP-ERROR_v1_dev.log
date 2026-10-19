@@ -1,0 +1,70 @@
+[v1/development] A02 error claims=0 turns=1 421ms provider_error
+[v1/development] A04 error claims=0 turns=1 524ms provider_error
+[v1/development] A09 error claims=0 turns=1 528ms provider_error
+[v1/development] A08 error claims=0 turns=1 533ms provider_error
+[v1/development] A06 error claims=0 turns=1 536ms provider_error
+[v1/development] A10 error claims=0 turns=1 543ms provider_error
+[v1/development] A01 error claims=0 turns=1 815ms provider_error
+[v1/development] A03 error claims=0 turns=1 818ms provider_error
+[v1/development] A05 error claims=0 turns=1 819ms provider_error
+[v1/development] A07 error claims=0 turns=1 820ms provider_error
+[v1/development] A11 error claims=0 turns=1 406ms provider_error
+[v1/development] A14 error claims=0 turns=1 377ms provider_error
+[v1/development] A13 error claims=0 turns=1 384ms provider_error
+[v1/development] A12 error claims=0 turns=1 392ms provider_error
+[v1/development] A15 error claims=0 turns=1 382ms provider_error
+[v1/development] A16 error claims=0 turns=1 375ms provider_error
+[v1/development] A17 error claims=0 turns=1 390ms provider_error
+[v1/development] A21 error claims=0 turns=1 385ms provider_error
+[v1/development] A20 error claims=0 turns=1 396ms provider_error
+[v1/development] A18 error claims=0 turns=1 407ms provider_error
+[v1/development] A19 error claims=0 turns=1 414ms provider_error
+[v1/development] A25 error claims=0 turns=1 397ms provider_error
+[v1/development] A23 error claims=0 turns=1 404ms provider_error
+[v1/development] A22 error claims=0 turns=1 409ms provider_error
+[v1/development] A24 error claims=0 turns=1 411ms provider_error
+[v1/development] A26 error claims=0 turns=1 413ms provider_error
+[v1/development] A28 error claims=0 turns=1 389ms provider_error
+[v1/development] A27 error claims=0 turns=1 398ms provider_error
+[v1/development] A31 error claims=0 turns=1 370ms provider_error
+[v1/development] A29 error claims=0 turns=1 390ms provider_error
+[v1/development] A30 error claims=0 turns=1 410ms provider_error
+[v1/development] A36 error claims=0 turns=1 368ms provider_error
+[v1/development] A35 error claims=0 turns=1 375ms provider_error
+[v1/development] A34 error claims=0 turns=1 381ms provider_error
+[v1/development] A33 error claims=0 turns=1 395ms provider_error
+[v1/development] A32 error claims=0 turns=1 554ms provider_error
+[v1/development] A37 error claims=0 turns=1 385ms provider_error
+[v1/development] A39 error claims=0 turns=1 384ms provider_error
+[v1/development] A40 error claims=0 turns=1 383ms provider_error
+[v1/development] A38 error claims=0 turns=1 395ms provider_error
+{
+ "run_id": "30c6971f-0955-41a8-b4b9-89298786a67e",
+ "report_dir": "runs/20261019T101545_v1_development_30c6971f",
+ "summary": {
+  "answers_scheduled": 40,
+  "answers_ok": 0,
+  "answers_error": 40,
+  "answers_empty": 0,
+  "error_counts": {
+   "provider_error": 40
+  },
+  "P": 0,
+  "G": 376,
+  "M": 0,
+  "C": 0,
+  "metrics": {
+   "extraction": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+   },
+   "joint": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+   },
+   "coverage": 0.0
+  }
+ }
+}

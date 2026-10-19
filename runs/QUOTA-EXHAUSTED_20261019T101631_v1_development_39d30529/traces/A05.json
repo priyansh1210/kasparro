@@ -1,0 +1,43 @@
+{
+ "answer_id": "A05",
+ "status": "error",
+ "error_type": "provider_error",
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 4681,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_1773386",
+      "function": {
+       "arguments": "{\"brand_id\":\"stonewave\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "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"
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 1745,
+    "total_tokens": 2337
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"stonewave\"}"
+   },
+   "tool_result_rows": 44
+  }
+ ]
+}

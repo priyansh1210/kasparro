@@ -1,0 +1,70 @@
+[v2/development] A04 ok claims=11 turns=2 41118ms 
+[v2/development] A09 ok claims=10 turns=2 3772ms 
+[v2/development] A08 ok claims=10 turns=2 46804ms 
+[v2/development] A02 ok claims=10 turns=2 46808ms 
+[v2/development] A10 ok claims=10 turns=2 81479ms 
+[v2/development] A12 ok claims=9 turns=2 80529ms 
+[v2/development] A11 ok claims=10 turns=2 80803ms 
+[v2/development] A13 ok claims=10 turns=2 3567ms 
+[v2/development] A14 ok claims=9 turns=2 40370ms 
+[v2/development] A15 ok claims=10 turns=2 41433ms 
+[v2/development] A16 ok claims=9 turns=2 40319ms 
+[v2/development] A17 ok claims=11 turns=2 4116ms 
+[v2/development] A18 ok claims=8 turns=2 3422ms 
+[v2/development] A19 ok claims=10 turns=2 3792ms 
+[v2/development] A21 ok claims=8 turns=2 3128ms 
+[v2/development] A20 ok claims=8 turns=2 3798ms 
+[v2/development] A07 error claims=0 turns=1 199995ms provider_error
+[v2/development] A05 error claims=0 turns=1 199999ms provider_error
+[v2/development] A01 error claims=0 turns=1 200306ms provider_error
+[v2/development] A03 error claims=0 turns=1 200311ms provider_error
+[v2/development] A06 error claims=0 turns=1 200597ms provider_error
+[v2/development] A25 ok claims=9 turns=2 40669ms 
+[v2/development] A26 ok claims=10 turns=2 40776ms 
+[v2/development] A27 ok claims=9 turns=2 40692ms 
+[v2/development] A28 ok claims=10 turns=2 40795ms 
+[v2/development] A29 ok claims=9 turns=2 41224ms 
+[v2/development] A31 ok claims=10 turns=2 3835ms 
+[v2/development] A30 ok claims=11 turns=2 4041ms 
+[v2/development] A33 ok claims=11 turns=2 40449ms 
+[v2/development] A34 ok claims=8 turns=2 40122ms 
+[v2/development] A36 ok claims=8 turns=2 39282ms 
+[v2/development] A35 ok claims=10 turns=2 40091ms 
+[v2/development] A38 ok claims=9 turns=2 3436ms 
+[v2/development] A37 ok claims=10 turns=2 4022ms 
+[v2/development] A39 ok claims=10 turns=2 4292ms 
+[v2/development] A40 ok claims=9 turns=2 3953ms 
+[v2/development] A23 ok claims=8 turns=2 177790ms 
+[v2/development] A24 error claims=0 turns=1 198900ms provider_error
+[v2/development] A22 ok claims=10 turns=2 203040ms 
+[v2/development] A32 ok claims=8 turns=2 201669ms 
+{
+ "run_id": "21c74868-3a48-41de-9e75-9bfbb717c3cf",
+ "report_dir": "runs/20261019T103213_v2_development_21c74868",
+ "summary": {
+  "answers_scheduled": 40,
+  "answers_ok": 34,
+  "answers_error": 6,
+  "answers_empty": 0,
+  "error_counts": {
+   "provider_error": 6
+  },
+  "P": 322,
+  "G": 376,
+  "M": 320,
+  "C": 320,
+  "metrics": {
+   "extraction": {
+    "precision": 0.993789,
+    "recall": 0.851064,
+    "f1": 0.916905
+   },
+   "joint": {
+    "precision": 0.993789,
+    "recall": 0.851064,
+    "f1": 0.916905
+   },
+   "coverage": 0.851064
+  }
+ }
+}

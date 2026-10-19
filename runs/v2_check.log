@@ -1,0 +1,26 @@
+[v2/check] A43 ok claims=9 turns=2 177783ms 
+[v2/check] A45 ok claims=9 turns=2 4035ms 
+[v2/check] A46 ok claims=11 turns=2 4521ms 
+[v2/check] A47 ok claims=8 turns=2 3281ms 
+[v2/check] A48 ok claims=10 turns=2 4206ms 
+[v2/check] A49 ok claims=8 turns=2 3572ms 
+[v2/check] A50 ok claims=6 turns=2 3893ms 
+[v2/check] A42 ok claims=10 turns=2 202043ms 
+[v2/check] A41 ok claims=9 turns=2 202119ms 
+[v2/check] A44 ok claims=10 turns=2 239656ms 
+{
+ "run_id": "46a51e3e-c449-4fb0-b6c0-19fbd79986b0",
+ "report_dir": "runs/20261019T103508_v2_check_46a51e3e",
+ "summary": {
+  "answers_scheduled": 10,
+  "answers_ok": 10,
+  "answers_error": 0,
+  "answers_empty": 0,
+  "error_counts": {},
+  "P": 90,
+  "G": null,
+  "M": null,
+  "C": null,
+  "metrics": null
+ }
+}

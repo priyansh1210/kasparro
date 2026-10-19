@@ -1,0 +1,62 @@
+{
+ "answer_id": "A47",
+ "status": "ok",
+ "error_type": null,
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 78343,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_6920919",
+      "function": {
+       "arguments": "{\"brand_id\":\"stonewave\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "EmAKXgFpFH0Tkf7KVpwwJW5EWXLpZL4AkNqkDGtGAAAaXbuKw9U+ketRDxMgVq22p1Z7TyrdNBH0kaYfku29LuU1jX54fUrF077QgY6oG9kLTV63KTwgJZkjfFSJbKWhQ9A="
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 1730,
+    "total_tokens": 1752
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"stonewave\"}"
+   },
+   "tool_result_rows": 44
+  },
+  {
+   "turn": 2,
+   "request_messages": 4,
+   "latency_ms": 2359,
+   "assistant": {
+    "content": "{\"answer_id\": \"A47\", \"claims\": [{\"quote\": \"Orders for StoneWave Max receive free delivery to every India postal code, so there is no separate shipping charge even when a customer selects a remote delivery address.\", \"label\": \"unknown\", \"fact_ids\": [], \"reason\": \"The catalogue contains no delivery or shipping charge policies.\"}, {\"quote\": \"The normal manufacturing origin of StoneWave Max is India, even when the unit is purchased through an authorized seller rather than ordered directly from the manufacturer's own retail channel.\", \"label\": \"unknown\", \"fact_ids\": [], \"reason\": \"The catalogue contains no facts about the manufacturing origin.\"}, {\"quote\": \"For a current India catalogue comparison before shipping, StoneWave Max is INR 1,500 less expensive than StoneWave Go, with tax included in both listed prices.\", \"label\": \"contradicted\", \"fact_ids\": [\"stonewave.max.price_2026\", \"stonewave.go.price_2026\"], \"reason\": \"In 2026, StoneWave Max is 3499 INR and StoneWave Go is 1999 INR, making Max INR 1,500 more expensive, not less.\"}, {\"quote\": \"The manufacturer permits stereo pairing only between two units of the exact StoneWave Max model, rather than treating every speaker sharing the same brand name as a compatible stereo partner.\", \"label\": \"supported\", \"fact_ids\": [\"stonewave.max.stereo_pairing_scope\"], \"reason\": \"The catalogue confirms stereo pairing is restricted to two units of the exact same model only.\"}, {\"quote\": \"The built-in Wi-Fi capability of StoneWave Max is present, independently of whatever Bluetooth connection a listener might also choose for everyday playback.\", \"label\": \"contradicted\", \"fact_ids\": [\"stonewave.max.wifi\"], \"reason\": \"The catalogue states that built-in Wi-Fi for StoneWave Max is false.\"}, {\"quote\": \"With all port covers closed, StoneWave Max is permitted to remain immersed in fresh water at a depth of one metre for a full hour under the manufacturer's stated laboratory allowance.\", \"label\": \"contradicted\", \"fact_ids\": [\"stonewave.max.immersion_duration\"], \"reason\": \"The maximum laboratory immersion duration for StoneWave Max is 30 minutes, not a full hour.\"}, {\"quote\": \"For manufacturing defects following an authorized India purchase with the original invoice, the standard manufacturer warranty on StoneWave Max lasts 1.5 years from purchase.\", \"label\": \"supported\", \"fact_ids\": [\"stonewave.max.warranty_india\"], \"reason\": \"1.5 years equals 18 months, which matches the India warranty duration for StoneWave Max.\"}, {\"quote\": \"No version of StoneWave Max has ever been offered in blue, including previous-year retail stock and editions supplied only through independent authorized sellers rather than the official online store.\", \"label\": \"unknown\", \"fact_ids\": [], \"reason\": \"The catalogue contains no facts regarding product colours or available finishes.\"}]}",
+    "role": "assistant",
+    "extra_content": {
+     "google": {
+      "thought_signature": "EmAKXgFpFH0Tx4SxZJCqcwIV60qQAxqRViO+crifn+/tKMNoXoubmP/0cuCb1wnJ2ilu0CpTpOLIzurR2dsGJGTrf8Lfz0nflQ8R1SvCbnhKTnDLnfFCE3Zl+/yj89xg7jI="
+     }
+    }
+   },
+   "usage": {
+    "completion_tokens": 658,
+    "prompt_tokens": 6205,
+    "total_tokens": 6863
+   }
+  }
+ ]
+}

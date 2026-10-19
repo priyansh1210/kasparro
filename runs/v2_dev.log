@@ -1,0 +1,68 @@
+[v2/development] A05 ok claims=8 turns=2 3885ms 
+[v2/development] A04 ok claims=12 turns=2 4029ms 
+[v2/development] A03 ok claims=9 turns=2 4075ms 
+[v2/development] A02 ok claims=10 turns=2 4328ms 
+[v2/development] A01 ok claims=9 turns=2 4368ms 
+[v2/development] A06 ok claims=10 turns=2 4375ms 
+[v2/development] A10 ok claims=10 turns=2 3817ms 
+[v2/development] A07 ok claims=8 turns=2 82120ms 
+[v2/development] A08 ok claims=10 turns=2 82053ms 
+[v2/development] A09 ok claims=10 turns=2 82176ms 
+[v2/development] A11 ok claims=10 turns=2 82281ms 
+[v2/development] A12 ok claims=9 turns=2 82554ms 
+[v2/development] A13 ok claims=10 turns=2 80026ms 
+[v2/development] A14 ok claims=9 turns=2 3387ms 
+[v2/development] A15 ok claims=10 turns=2 4116ms 
+[v2/development] A16 ok claims=9 turns=2 3998ms 
+[v2/development] A18 ok claims=8 turns=2 3490ms 
+[v2/development] A17 ok claims=11 turns=3 42862ms 
+[v2/development] A19 ok claims=10 turns=2 41628ms 
+[v2/development] A23 ok claims=8 turns=2 39750ms 
+[v2/development] A20 ok claims=8 turns=2 40840ms 
+[v2/development] A21 ok claims=8 turns=2 40066ms 
+[v2/development] A22 ok claims=10 turns=2 40313ms 
+[v2/development] A25 ok claims=9 turns=2 3685ms 
+[v2/development] A24 ok claims=10 turns=2 4111ms 
+[v2/development] A27 ok claims=9 turns=2 3739ms 
+[v2/development] A29 ok claims=9 turns=2 3931ms 
+[v2/development] A28 ok claims=10 turns=2 82235ms 
+[v2/development] A32 ok claims=6 turns=2 79299ms 
+[v2/development] A26 ok claims=10 turns=2 83168ms 
+[v2/development] A31 ok claims=10 turns=2 80504ms 
+[v2/development] A33 ok claims=11 turns=2 80311ms 
+[v2/development] A30 ok claims=11 turns=2 81645ms 
+[v2/development] A34 ok claims=8 turns=2 3847ms 
+[v2/development] A36 ok claims=8 turns=2 3512ms 
+[v2/development] A35 ok claims=10 turns=2 4070ms 
+[v2/development] A37 ok claims=10 turns=2 41403ms 
+[v2/development] A38 ok claims=9 turns=2 40802ms 
+[v2/development] A39 ok claims=10 turns=2 40681ms 
+[v2/development] A40 ok claims=9 turns=2 39804ms 
+{
+ "run_id": "b3ed3e75-7f22-4198-8825-c695a3ec7755",
+ "report_dir": "runs/20261019T103952_v2_development_b3ed3e75",
+ "summary": {
+  "answers_scheduled": 40,
+  "answers_ok": 40,
+  "answers_error": 0,
+  "answers_empty": 0,
+  "error_counts": {},
+  "P": 375,
+  "G": 376,
+  "M": 373,
+  "C": 373,
+  "metrics": {
+   "extraction": {
+    "precision": 0.994667,
+    "recall": 0.992021,
+    "f1": 0.993342
+   },
+   "joint": {
+    "precision": 0.994667,
+    "recall": 0.992021,
+    "f1": 0.993342
+   },
+   "coverage": 0.992021
+  }
+ }
+}

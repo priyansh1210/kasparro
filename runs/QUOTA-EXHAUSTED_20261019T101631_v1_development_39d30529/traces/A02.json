@@ -1,0 +1,43 @@
+{
+ "answer_id": "A02",
+ "status": "error",
+ "error_type": "provider_error",
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 19872,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_651869",
+      "function": {
+       "arguments": "{\"brand_id\":\"cloudnote\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "EpQCCpECAWkUfRO6Kw6HPGYyxPr/ioTqIyxhIBvDhwbryLLUzJIosbZtVP2Zwki02Rss9kFH16HcCAMQHP9QzddFY8Kq6m2c2IGW5cKcmkmzZw8tgxtNR5yedN542KTvcMNt5nisQ+72Qzl+vDYNzonFWUaSCe3065LPm3wGINc7D0Lz2P/bmDUVggE62Dcjb/2zMQcsmvJkeFakg6fk0FjWtpDoF7iqkvyQJRZDdGOw56x+zpqM/iU0TIWIBkpFmgQtW8edrX/By7ovgu+nIeMVs2Nw+Gb+T3Z2CcFnnI0fBsLAFNaB0EDGKHIPvarWUU6Sk74VlSchwUhkQzy6x/txd4HvN4dKovThZnNh0M/U7Zg39+0I"
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 1806,
+    "total_tokens": 1871
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"cloudnote\"}"
+   },
+   "tool_result_rows": 44
+  }
+ ]
+}

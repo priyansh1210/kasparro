@@ -1,0 +1,62 @@
+{
+ "answer_id": "A20",
+ "status": "ok",
+ "error_type": null,
+ "exchange": [
+  {
+   "turn": 1,
+   "request_messages": 2,
+   "latency_ms": 761,
+   "assistant": {
+    "role": "assistant",
+    "tool_calls": [
+     {
+      "id": "call_2005897",
+      "function": {
+       "arguments": "{\"brand_id\":\"stonewave\"}",
+       "name": "get_brand_facts"
+      },
+      "type": "function",
+      "extra_content": {
+       "google": {
+        "thought_signature": "EmAKXgFpFH0TUnIWLcXbkkeemtH7ASksvSNfGkr1TQ3bXPDOD5qd062gy+kPRl0SvYrCX+UrviK+59bWc2WA1ce1yTUVTV/NxP21Dup7SY4v4jx0js4xIJWholhOwhsQA6c="
+       }
+      }
+     }
+    ]
+   },
+   "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 1748,
+    "total_tokens": 1770
+   }
+  },
+  {
+   "turn": 1,
+   "tool_call": {
+    "name": "get_brand_facts",
+    "arguments": "{\"brand_id\":\"stonewave\"}"
+   },
+   "tool_result_rows": 44
+  },
+  {
+   "turn": 2,
+   "request_messages": 4,
+   "latency_ms": 2403,
+   "assistant": {
+    "content": "{\n \"answer_id\": \"A20\",\n \"claims\": [\n  {\n   \"quote\": \"The manufacturer supports a stereo pair made from one StoneWave Go and one StoneWave Max, since being members of the same brand is sufficient for cross-model stereo compatibility.\",\n   \"label\": \"contradicted\",\n   \"fact_ids\": [\n    \"stonewave.go.stereo_pairing_scope\"\n   ],\n   \"reason\": \"Catalogue specifies that stereo pairing is restricted to two units of the exact same model, making cross-model pairing unsupported.\"\n  },\n  {\n   \"quote\": \"In the 2025 India catalogue, before the current-year revision, StoneWave Go already carried the same tax-inclusive list price of INR 1,999, excluding shipping from that amount.\",\n   \"label\": \"contradicted\",\n   \"fact_ids\": [\n    \"stonewave.go.price_2025\"\n   ],\n   \"reason\": \"The 2025 India list price for StoneWave Go was INR 1,799, not INR 1,999.\"\n  },\n  {\n   \"quote\": \"The normal manufacturing origin of StoneWave Go is India, even when the unit is purchased through an authorized seller rather than ordered directly from the manufacturer's own retail channel.\",\n   \"label\": \"unknown\",\n   \"fact_ids\": [],\n   \"reason\": \"Manufacturing origin is not established in the catalogue facts.\"\n  },\n  {\n   \"quote\": \"The manufacturer permits stereo pairing only between two units of the exact StoneWave Go model, rather than treating every speaker sharing the same brand name as a compatible stereo partner.\",\n   \"label\": \"supported\",\n   \"fact_ids\": [\n    \"stonewave.go.stereo_pairing_scope\"\n   ],\n   \"reason\": \"Catalogue fact confirms stereo pairing requires two units of this exact model only.\"\n  },\n  {\n   \"quote\": \"The Bluetooth connection on StoneWave Go maintains uninterrupted playback at a distance of one hundred metres outdoors, even when a listener changes the phone used as the transmitting device.\",\n   \"label\": \"unknown\",\n   \"fact_ids\": [],\n   \"reason\": \"Outdoor Bluetooth distance range is not established in the catalogue.\"\n  },\n  {\n   \"quote\": \"Despite the declared IPX5 water-resistance rating, the manufacturer does not permit fresh-water immersion of StoneWave Go, even with all of the port covers properly closed.\",\n   \"label\": \"supported\",\n   \"fact_ids\": [\n    \"stonewave.go.water_rating\",\n    \"stonewave.go.immersion_allowed\"\n   ],\n   \"reason\": \"Catalogue confirms IPX5 rating and that immersion allowed is false.\"\n  },\n  {\n   \"quote\": \"For an India purchase at the official catalogue list price on 1 October 2026, StoneWave Go costs INR 1,999 including tax but excluding shipping.\",\n   \"label\": \"supported\",\n   \"fact_ids\": [\n    \"stonewave.go.price_2026\"\n   ],\n   \"reason\": \"Catalogue confirms the 2026 India list price is INR 1,999 with tax included and shipping excluded.\"\n  },\n  {\n   \"quote\": \"The plastic used in the enclosure of StoneWave Go contains at least sixty percent post-consumer recycled material by weight, excluding the electronic components and the external retail packaging.\",\n   \"label\": \"unknown\",\n   \"fact_ids\": [],\n   \"reason\": \"Recycled material content is not mentioned in the catalogue facts.\"\n  }\n ]\n}",
+    "role": "assistant",
+    "extra_content": {
+     "google": {
+      "thought_signature": "EmAKXgFpFH0TUnfC6NFiCRA4vAWizlNLgrqekELOh8+KG0Qu+xp0o8w3rOMWzn1J4mt5WbY3CBVWlBFz/cY5r6p3N8zoRfqBL0eBoTeeZzinjRKdA+CLrSVK/JmNRr4z5gk="
+     }
+    }
+   },
+   "usage": {
+    "completion_tokens": 821,
+    "prompt_tokens": 6223,
+    "total_tokens": 7044
+   }
+  }
+ ]
+}
